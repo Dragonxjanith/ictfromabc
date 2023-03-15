@@ -9753,7 +9753,7 @@ ${ita}💗 THANKS FOR USING QUEEN NILU 💗${ita}
 
  ${ucapanWaktu} 
 
- 🧑🏻‍💻 We are ICT FROM ABC 
+ 🧑🏻‍💻 We are 𝙸𝙲𝚃 𝙵𝚁𝙾𝙼 𝙰𝙱𝙲
 
 by *Ravindu bandaranyake*
  
