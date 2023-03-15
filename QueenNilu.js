@@ -9950,7 +9950,7 @@ case 'menu': {
   💐 𝙱𝙾𝚃 𝙽𝚄𝙼𝙱𝙴𝚁 : ${global.owner}
   🫧 𝚂𝙿𝙴𝙴𝙳 : ${(end - start)} 𝗠𝗦
   
-`
+  `
   const templateButtons = [
     {buttonId: `panel`, buttonText: {displayText: 'ʟɪsᴛ ᴍᴇɴᴜ'}, type: 1},
     {buttonId: `owner`, buttonText: {displayText: 'ᴏᴡɴᴇʀ‍️'}, type: 1},
