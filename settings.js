@@ -7,12 +7,12 @@ const chalk = require('chalk')
 */
 
 //Owner Number & Name 
-global.owner = ['94767438882'] //ur owner number
+global.owner = ['94714555513'] //ur owner number
 global.ownername = "Janith sadanuwan" //ur owner name
 
 //Bot Name 
-global.botname = 'ǫᴜᴇᴇɴ ɴɪʟᴜ' //ur bot name
-global.wm = "ǫᴜᴇᴇɴ ɴɪʟᴜ" //ur watermark
+global.botname = 'ɪᴄᴛ ꜰʀᴏᴍ ᴀʙᴄ' //ur bot name
+global.wm = "ɪᴄᴛ ꜰʀᴏᴍ ᴀʙᴄ" //ur watermark
 
 
 //React Messages 

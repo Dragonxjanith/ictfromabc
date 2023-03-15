@@ -9698,13 +9698,11 @@ break
 //-----------------ALIVE-----------------------------\\
  
 
-case 'alive': case 'bot':{  
+case 'Hi': case 'bot':{  
     // Push Message To Console && Auto Read
 QueenNilu.readMessages([m.key])
 
    // await QueenNilu.sendReadReceipt(from, m.sender, [m.key.id])
-             await QueenNilu.sendPresenceUpdate('recording', m.chat) 
-             await QueenNilu.sendMessage(m.chat, { audio: {url :'https://github.com/Dragonxjanith/UPLOADS/raw/main/VOICE/Nilu.mp3'}, mimetype: 'audio/mp4', ptt: true }, { quoted: m }) 
  if (global.alive === 'default') {
  const ita = '```'
  await QueenNilu.sendMessage(from, { react: { text: `👋`, key: m.key }})
@@ -9746,29 +9744,24 @@ ${ita}💗 THANKS FOR USING QUEEN NILU 💗${ita}
              await QueenNilu.sendMessage(from, { react: { text: `👋`, key: m.key }})
     
                     const templateButtons = [
-{ quickReplyButton: {displayText: ' 𝙼𝙴𝙽𝚄 ', id: 'menu' }} , 
-{ quickReplyButton: {displayText: ' 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 ', id: 'version' }}  ,
-{ quickReplyButton: {displayText: ' 𝙿𝙸𝙽𝙶 ️', id: 'botstetus' }}  
+{ quickReplyButton: {displayText: ' ᴍᴇɴᴜ ', id: 'menu' }} , 
+{ quickReplyButton: {displayText: 'ᴀʙᴏᴜᴛ ', id: 'about' }}  ,
+{ quickReplyButton: {displayText: 'ᴄᴏɴᴛᴀᴄᴛ ', id: 'owner' }}  
                         ]
  const buttonMessage = {
- caption: `◈𝚀𝚄𝙴𝙴𝙽 𝙽𝙸𝙻𝚄 𝙸𝚂 𝙰𝙻𝙸𝚅𝙴◈
+ caption: ` Hello ${pushname} 
 
- ${ucapanWaktu} ${pushname} 
+ ${ucapanWaktu} 
 
- 💃ᴀʙᴏᴜᴛ ʙᴏᴛ💃
- 
- *🧑🏻‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : 𝙹𝙰𝙽𝙸𝚈𝙰*
- *🔮ᴠᴇʀꜱɪᴏɴ : ${BOT_VERSION}*
- *🤹‍♂️ ᴏᴡɴᴇʀ : ${global.ownername}* 
- *👸ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}*
+ 🧑🏻‍💻 We are ICT FROM ABC 
 
- 💃ᴅᴇᴘʟᴏʏ ǫᴜᴇᴇɴ ɴɪʟᴜ💃
+by *Ravindu bandaranyake*
  
- •ᴡᴇʙꜱɪᴛᴇ - https://janithsadanuwan.tech/QueenNilu
- •ɢɪᴛʜᴜʙ- https://github.com/Janithsadanuwan
- •Qʀ -https://bit.ly/QueenNiluQR
+
+ •ᴡᴇʙꜱɪᴛᴇ - https://ictfromabc.com
+ •ʏᴏᴜᴛᴜʙᴇ- https://youtube.com/ictfromabc
  
- 💞𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝚀𝚄𝙴𝙴𝙽 𝙽𝙸𝙻𝚄 💞
+ contact for more details 👇
  `,
  footer: global.botname,
  templateButtons: templateButtons,
