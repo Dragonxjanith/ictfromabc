@@ -9698,7 +9698,7 @@ break
 //-----------------ALIVE-----------------------------\\
  
 
-case 'Hi': case 'bot':{  
+case 'Hello': case 'bot':{  
     // Push Message To Console && Auto Read
 QueenNilu.readMessages([m.key])
 
