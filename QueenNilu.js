@@ -9909,7 +9909,7 @@ case 'settings':{
                                                                  
                                            ]
                     const listMessage = {
-                      text: "* 𝙸𝙲𝚃 𝙵𝚁𝙾𝙼 𝙰𝙱𝙲*\n\n\nHow Can I help You 🤹‍♂️",
+                      text: "*𝙸𝙲𝚃 𝙵𝚁𝙾𝙼 𝙰𝙱𝙲*\n\n\nHow Can I help You 🤹‍♂️",
                       footer: `ǫᴜᴇᴇɴ ɴɪʟᴜ`,
                       title: `Hi 👋 ${ownername}`,
                       buttonText: "Click Here",
