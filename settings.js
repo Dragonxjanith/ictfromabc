@@ -66,7 +66,7 @@ global.websitex = "https://youtu.be/c/janithsadanuwan" //ur website to be displa
 global.botscript = 'https://github.com/janithsadanuwan/QueenNilu' //script link
 
 //Alive 
-global.alivelogo = process.env.ALIVE_LOGO || `https://te.legra.ph/file/a9293226a7c660ecbfffb.jpg`
+global.alivelogo = process.env.ALIVE_LOGO || `https://te.legra.ph/file/aeb7cf396c947632c9b76.jpg`
 global.alive = process.env.ALIVE_MESSAGE 
 
 //Sticker Making 
