@@ -9744,7 +9744,7 @@ ${ita}💗 THANKS FOR USING QUEEN NILU 💗${ita}
              await QueenNilu.sendMessage(from, { react: { text: `👋`, key: m.key }})
     
                     const templateButtons = [
-{ quickReplyButton: {displayText: ' ᴍᴇɴᴜ ', id: 'menu' }} , 
+{ quickReplyButton: {displayText: ' ᴍᴇɴᴜ ', id: 'listmenu' }} , 
 { quickReplyButton: {displayText: 'ᴀʙᴏᴜᴛ ', id: 'about' }}  ,
 { quickReplyButton: {displayText: 'ᴄᴏɴᴛᴀᴄᴛ ', id: 'owner' }}  
                         ]
