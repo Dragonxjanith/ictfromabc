@@ -57,7 +57,7 @@ if (global.db) setInterval(async () => {
 
 
 async function startQueenNilu() {
-    const { state, saveCreds } = useMultiFileAuthState(`auth_info_baileys`)
+    const { state, saveCreds } = await useMultiFileAuthState(`auth_info_baileys`)
     const QueenNilu = JaniyaINCConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
