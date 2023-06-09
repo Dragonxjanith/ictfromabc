@@ -1,7 +1,3 @@
-//═══════════════════════════════════════════════════════//
-//                  QUEEN NILU WHATSAPP BOT 
-//                           [ script tuna ]
-//════════════════════════════//
 
 require('./settings')
 const { default: JaniyaINCConnect, useMultiFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, proto } = require("@adiwajshing/baileys")
