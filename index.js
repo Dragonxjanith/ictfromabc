@@ -50,7 +50,7 @@ global.db.data = {
     ...(global.db.data || {})
 }
 
-// save database every 30secondssaveCreds
+// save database every 30secondssav
 if (global.db) setInterval(async () => {
     if (global.db.data) await global.db.write()
   }, 30 * 1000)
